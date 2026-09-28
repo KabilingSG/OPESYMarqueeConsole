@@ -1,0 +1,26 @@
+# CSOPESY Marquee Console configuration
+# Format: key=value   (lines starting with # are comments)
+# Invalid or missing values fall back to safe defaults.
+# Runtime commands (set_text / set_speed) override these at any time.
+
+# Console layout (characters / rows) used by the program
+console_width=80
+console_height=25
+
+# Height of the marquee area in rows (min 5, glyphs are 5 rows tall)
+ascii_height=5
+
+# Default marquee refresh interval in milliseconds (1 - 60000)
+default_speed=500
+
+# Default marquee text
+default_text=CSOPESY
+
+# Blank columns between the end of the text and its wrapped copy
+spacing=5
+
+# Columns the graphic moves per animation frame
+step=2
+
+# Keyboard polling interval in ms (how often the input loop checks for keys)
+poll_ms=5
